@@ -8,7 +8,7 @@ import Child from './Components/QUESTION4/Child';
 import Question3 from '../src/Components/QUESTION3/Question3';
 import Question1 from './Components/QUESTION1/Question1';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import "./Components/QUESTION1/Question1.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

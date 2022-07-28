@@ -1,3 +1,9 @@
 .data{
 color:white;
 }
+*{
+    margin: 0;
+}
+.ml-auto{
+    margin-left: auto;
+}

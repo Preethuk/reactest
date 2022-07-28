@@ -28,7 +28,7 @@ const handlechange=(e)=>{
 }
 
   return (
-    <div className="text">
+    <div className="textdata">
       <div className="main">
         <Form onSubmit={submitValue}>
           
@@ -91,14 +91,16 @@ const handlechange=(e)=>{
         
         </Form>
 
-        <div className="display">
+        <div className="display2">
          
-          <h2>
+          
            {display.firstname}
-          </h2>
-          <h2>{display.lastname}</h2>
-          <a>{display.Email}</a>
-          <h5>{display.Password}</h5>
+        
+          {display.lastname}
+          <br/>
+          {display.Email}
+          <br/>
+          {display.Password}
         </div>
         {/* <div style={{marginLeft:'500px'}}>
           <p>{details.firstName}</p>

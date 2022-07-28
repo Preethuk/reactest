@@ -9,12 +9,14 @@ import Question3 from './Components/QUESTION3/Question3'
 import Child from './Components/QUESTION4/Child'
 import Parent from './Components/QUESTION4/Parent'
 
+
 function App() {
   return (
     <div>
       <Header/>
-      <Home />
+     
        <Routes>
+  <Route path='/' element={ <Home />} />
   <Route path="/page" element={<Question1/>}/>
   <Route path="/toggle" element={<Question2/>}/>
   <Route path="/login" element={<Question3/>}/>
