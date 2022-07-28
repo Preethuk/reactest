@@ -30,10 +30,10 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-          <Link to="page"className="data" >Users</Link> 
-        <Link to="login"className="data">Login</Link> 
-        <Link to="task"className="data">Profile</Link> 
-      <Link to="toggle"className="data">ContactUs</Link> 
+          <Link to="page"className="data" >Task1</Link> 
+        <Link to="login"className="data">Task2</Link> 
+        <Link to="task"className="data">Task3</Link> 
+      <Link to="toggle"className="data">Task4</Link> 
           </Nav>
         </Navbar.Collapse>
       </Container>
