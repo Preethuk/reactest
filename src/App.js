@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Footer from './Components/Footer/Footer'
 import Header from './Components/Header'
 import Home from './Components/Home'
 import Question1 from './Components/QUESTION1/Question1'
@@ -24,6 +25,7 @@ function App() {
 
   
     </Routes>
+    {/* <Footer/> */}
     </div>
   )
 }

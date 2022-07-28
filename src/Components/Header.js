@@ -26,14 +26,14 @@ function Header() {
 
 <Navbar bg="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home" style={{color:'white'}}>ZartekTechnologies</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{color:'white'}}><img src='https://www.zartek.in/images/logo-white.png'></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-          <Link to="page"className="data" >Pagination</Link> 
-      <Link to="toggle"className="data">Toggle</Link> 
-        <Link to="login"className="data">InputDisplay</Link> 
-        <Link to="task"className="data">ParentChild</Link> 
+          <Link to="page"className="data" >Users</Link> 
+        <Link to="login"className="data">Login</Link> 
+        <Link to="task"className="data">Profile</Link> 
+      <Link to="toggle"className="data">ContactUs</Link> 
           </Nav>
         </Navbar.Collapse>
       </Container>
